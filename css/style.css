@@ -1,9 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body{
-	font-family: 'Gotham' sans-serif;
+	font-family: 'Gotham', 'Montserrat', sans-serif;
 }
 
 body span{
-	font-family: 'Gotham-Ultra' sans-serif;
+	font-family: 'Gotham-Ultra', 'Montserrat', sans-serif;
 }
 
 footer{
@@ -98,7 +100,7 @@ footer{
 	border: none;
 	width: 100%;
 	color: #000;
-	font-family: 'Gotham Book', sans-serif;
+	font-family: 'Gotham Book', 'Montserrat', sans-serif;
 	padding-left: 10px;
 }
 #road-begins input:focus{
@@ -111,7 +113,7 @@ footer{
 	width: 80px;
 	text-align: center;
 	padding: 5px;
-	font-family: 'Gotham';
+	font-family: 'Gotham', 'Montserrat', sans-serif;
 	font-weight: 500;
 	border-radius: 15px;
 	position: relative;
@@ -123,10 +125,10 @@ footer{
 }
 
 #road-begins span{
-	font-family: 'Gotham Book', sans-serif;
+	font-family: 'Gotham Book', 'Montserrat', sans-serif;
 }
 #road-begins h4{
-	font-family: 'Gotham-Ultra'
+	font-family: 'Gotham-Ultra', 'Montserrat', sans-serif;
 }
 
 #road-begins div.col-sm-6:nth-child(odd){
