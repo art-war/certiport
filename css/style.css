@@ -11,10 +11,6 @@ footer{
 	width: 100%;
 }
 
-.landing-wrap{
-	width: 915px;
-	margin: 0 auto;
-}
 .bg-blue{
 	background: #7DC9D2;
 }
@@ -23,15 +19,24 @@ footer{
 }
 .bg-white{
 	background: #fff;
+	padding: 75px;
 }
+
+.row{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.landing-wrap img{width: 100%;}
 
 .pink-text{
 	color: #EC166C
 }
 
 .big-text{
-	font-size: 47px;
+	font-size: 40px;
 	display: block;
+	line-height: 50px;
 }
 
 .clearfix{
@@ -53,7 +58,13 @@ footer{
 	background: rgba(266,32,108,0);
 }
 
-.student-testimonial .bg-pink{display: none;}
+.student-testimonial .bg-pink{
+	background: transparent;
+	transition: background .15s ease-in-out;
+	-moz-transition: background .15s ease-in-out;
+	-webkit-transition: background .15s ease-in-out;
+
+}
 
 .student-testimonial:hover .bg-pink{
 	display: block;
@@ -68,13 +79,17 @@ footer{
 	cursor: pointer;
 }
 
+.form-holder{height: 100vh;}
+
 #road-begins{
 	color: #fff;
 	padding: 10px;
 	position: relative;
 	width: 55%;
+	max-width: 352px;
+	min-width: 310px;
 	margin: 0 auto;
-	height: 600px;
+	height: 100vh;
 	text-align: center;
 }
 
@@ -99,6 +114,8 @@ footer{
 	font-family: 'Gotham';
 	font-weight: 500;
 	border-radius: 15px;
+	position: relative;
+	right: -90px;
 }
 
 #road-begins label{
@@ -137,4 +154,22 @@ footer{
 #privacy-statement a{
 	color:#000;
 	font-weight: bolder;
+}
+
+@media (max-width: 765px){
+	#road-begins div.col-sm-6:nth-child(odd){
+		text-align: left;
+		margin-bottom: 10px;
+		padding-left: 0px;
+	}
+	#road-begins div.col-sm-6:nth-child(even){
+		text-align: left;
+		margin-bottom: 10px;
+		padding-left: 0px;
+	}
+	
+	.bg-white{padding: 75px 0;}
+	
+	#road-begins input[type="submit"]{top: -30px}
+	
 }
