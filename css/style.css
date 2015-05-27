@@ -41,13 +41,40 @@ footer{
 #road-begins{
 	color: #fff;
 	padding: 10px;
+	position: relative;
+	width: 55%;
+	margin: 0 auto;
+	height: 600px;
 	text-align: center;
 }
 
 #road-begins input{
 	border-radius: 10px;
 	border: none;
+	width: 100%;
+	color: #000;
+	font-family: 'Gotham Book', sans-serif;
+	padding-left: 10px;
 }
+#road-begins input:focus{
+	outline: none;
+}
+
+#road-begins input[type="submit"]{
+	background: #EC166C;
+	color: #fff;
+	width: 80px;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Gotham';
+	font-weight: 500;
+	border-radius: 15px;
+}
+
+#road-begins label{
+	text-align: right;
+}
+
 #road-begins span{
 	font-family: 'Gotham Book', sans-serif;
 }
@@ -55,10 +82,26 @@ footer{
 	font-family: 'Gotham-Ultra'
 }
 
+#road-begins div.col-sm-6:nth-child(odd){
+	text-align: right;
+	margin-bottom: 10px;
+	padding-left: 0px;
+}
+#road-begins div.col-sm-6:nth-child(even){
+	text-align: right;
+	margin-bottom: 10px;
+	padding-left: 0px;
+}
+
 #privacy-statement{
 	color: #000;
 	font-size: 10px;
-	line-height: 10px;
+	text-align: left;
+	display: block;
+	position: relative;
+	top: -17px;
+	width: 90%;
+	right: -18px;
 }
 
 #privacy-statement a{
