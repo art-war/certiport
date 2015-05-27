@@ -1,0 +1,67 @@
+body{
+	font-family: 'Gotham' sans-serif;
+}
+
+body span{
+	font-family: 'Gotham-Ultra' sans-serif;
+}
+
+footer{
+	background: #7DC9D2;
+	width: 100%;
+}
+
+.landing-wrap{
+	width: 915px;
+	margin: 0 auto;
+}
+.bg-blue{
+	background: #7DC9D2;
+}
+.bg-blk{
+	background: #000;
+}
+.bg-white{
+	background: #fff;
+}
+
+.pink-text{
+	color: #EC166C
+}
+
+.big-text{
+	font-size: 47px;
+	display: block;
+}
+
+.clearfix{
+	clear: both;
+}
+
+#road-begins{
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+#road-begins input{
+	border-radius: 10px;
+	border: none;
+}
+#road-begins span{
+	font-family: 'Gotham Book', sans-serif;
+}
+#road-begins h4{
+	font-family: 'Gotham-Ultra'
+}
+
+#privacy-statement{
+	color: #000;
+	font-size: 10px;
+	line-height: 10px;
+}
+
+#privacy-statement a{
+	color:#000;
+	font-weight: bolder;
+}
