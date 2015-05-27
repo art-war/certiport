@@ -68,7 +68,7 @@ footer{
 
 }
 
-.student-testimonial:hover .bg-pink{
+.student-testimonial div:first-child:hover .bg-pink{
 	display: block;
 	background: rgba(266,32,108,0.4);
 	width: 234px;
