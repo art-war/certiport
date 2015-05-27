@@ -38,6 +38,36 @@ footer{
 	clear: both;
 }
 
+.student-testimonial{
+	text-align: center;
+	margin-bottom: 25px;
+	position: relative;
+}
+.student-testimonial div:first-child{
+	border-radius: 50%;
+	width: 234px;
+	height: 234px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: rgba(266,32,108,0);
+}
+
+.student-testimonial .bg-pink{display: none;}
+
+.student-testimonial:hover .bg-pink{
+	display: block;
+	background: rgba(266,32,108,0.4);
+	width: 234px;
+	height: 234px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -117px;
+	cursor: pointer;
+}
+
 #road-begins{
 	color: #fff;
 	padding: 10px;
