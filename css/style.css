@@ -174,4 +174,31 @@ footer{
 	
 	#road-begins input[type="submit"]{top: -30px}
 	
+	.path-holder{margin-bottom: 950px;}
+	
+}
+
+@media (max-width: 575px){
+	
+	.student-testimonial div:first-child{
+		width: 125px;
+		height: 125px;
+	}
+	.student-testimonial div:first-child img{
+		width: 100%;
+	}
+	.student-testimonial div:first-child:hover .bg-pink{
+		width: 125px;
+		height: 125px;
+		margin-left: -62px;
+	}
+
+	.big-text{
+		font-size: 26px;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+	
+	.path-holder{margin-bottom: 575px;}
+	
 }
