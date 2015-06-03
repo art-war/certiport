@@ -190,7 +190,11 @@ footer{
 	
 	.bg-white{padding: 75px 0;}
 	
-	#road-begins{width: 100%;}
+	#road-begins{
+		width: 100%;
+		height: 800px;
+		margin-top: -150px;
+	}
 	
 	#road-begins input[type="submit"]{top: -30px}
 	
@@ -220,5 +224,10 @@ footer{
 	}
 	
 	.path-holder{margin-bottom: 625px;}
+	
+	#road-begins{
+		height: 800px;
+		margin-top: 0;
+	}
 	
 }
