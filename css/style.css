@@ -58,6 +58,7 @@ footer{
 	margin: 0 auto;
 	margin-bottom: 10px;
 	background: rgba(266,32,108,0);
+	position: relative;
 }
 
 .student-testimonial .bg-pink{
@@ -158,6 +159,21 @@ footer{
 #privacy-statement a{
 	color:#000;
 	font-weight: bolder;
+}
+
+@media (max-width: 1290px){
+	.student-testimonial div:first-child{
+		width: 184px;
+		height: 184px;
+	}
+	.student-testimonial div:first-child:hover .bg-pink{
+		width: 184px;
+		height: 184px;
+		margin-left: -92px;
+	}
+	.student-testimonial div:first-child img{
+		width: 100%;
+	}
 }
 
 @media (max-width: 767px){
